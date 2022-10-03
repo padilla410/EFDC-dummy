@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+# EFDCr
+[![Travis-CI Build Status](https://travis-ci.org/padilla410/EFDCr.svg?branch=master)](https://travis-ci.org/padilla410/EFDCr)
+
+Suite of post-processing tool for EFDC models
+
+## Installation
+
+You can install EFDCr from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("padilla410/EFDCr")
+```
+
+## Example
+
